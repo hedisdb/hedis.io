@@ -15,7 +15,7 @@ html
     header
       .inner
         h1 Hedis
-        h2 Hedis can retrieve data from **ANY** database directly
+        h2 Hedis can retrieve data from **ANY** database directly via Redis
         a.button(href='https://github.com/hedisdb/hedis')
           small View project on
           |  GitHub
@@ -32,7 +32,9 @@ html
           p
             | Hedis stands for "Hyper Redis". It can retrieve data from 
             strong ANY
-            |  database directly and stores to itself.
+            | database directly via 
+            strong Redis
+            | and stores to itself.
           p
             iframe(width='640', height='480', src='https://www.youtube.com/embed/aAgJaqvgqLU?rel=0', frameborder='0', allowfullscreen='')
           h2
@@ -153,7 +155,7 @@ html
             | This is a modified version of 
             a(href='https://github.com/antirez/redis') Redis
             | , maintaining by 
-            a(href='https://github.com/kewangtw') Kewang
+            a(href='https://github.com/kewang') Kewang
             |  now.
         aside#sidebar
           a.button(href='https://github.com/hedisdb/hedis/zipball/master')
