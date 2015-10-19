@@ -31,10 +31,10 @@ html
               img(src='https://badges.gitter.im/Join%20Chat.svg', alt='Join the chat at https://gitter.im/hedisdb/hedis')
           p
             | Hedis stands for "Hyper Redis". It can retrieve data from 
-            strong ANY 
-            | database directly via 
-            strong Redis 
-            | and stores to itself.
+            strong ANY
+            |  database directly via 
+            strong Redis
+            |  and stores to itself.
           p
             iframe(width='640', height='480', src='https://www.youtube.com/embed/aAgJaqvgqLU?rel=0', frameborder='0', allowfullscreen='')
           h2
@@ -50,9 +50,23 @@ html
           p
             | Hedis can retrieve data from 
             strong ANY
-            |  database directly. Application server retrieves hot data from Hedis server, If Hedis server doesn't have specific data, Hedis retrieves data from original database via 
+            |  database directly via 
+            strong Redis
+            | . Application server retrieves hot data from Hedis server, If Hedis server doesn't have specific data, Hedis retrieves data from original database via 
             strong ANY
             |  connector.
+          h3
+            a#slide.anchor(href='#slide', aria-hidden='true')
+              span.octicon.octicon-link
+            | Slide
+          p
+            iframe(src="//www.slideshare.net/slideshow/embed_code/key/53sxOfNca5f5YS", width="510", height="420", frameborder="0", marginwidth="0", marginheight="0", scrolling="no", style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;", allowfullscreen)
+            div(style="margin-bottom:5px")
+              strong
+                a(href="//www.slideshare.net/kewang/hedis-get-hbase-via-redis", title="Hedis - GET HBase via Redis", target="_blank") Hedis - GET HBase via Redis
+              from
+              strong
+                a(href="//www.slideshare.net/kewang", target="_blank") Mu Chun Wang
           h2
             a#benchmark.anchor(href='#benchmark', aria-hidden='true')
               span.octicon.octicon-link
